@@ -31,6 +31,49 @@
       "max_loss": 3.36,
       "stop": 119.73,
       "note": "Simulated paper only: price 119.62 at 10:45 ET already below the 119.73 stop, setup failed before fill; not placed"
+    },
+    {
+      "at": "2026-11-16T10:46:48-05:00",
+      "date": "2026-11-16",
+      "index": 2,
+      "fingerprint": "2fb8db58e5dcee5d",
+      "symbol": "WCN",
+      "side": "buy",
+      "qty": "4",
+      "kind": "entry",
+      "max_loss": 7.12,
+      "stop": 195.37,
+      "plain": "BUY 4 WCN, market, good for today / stop-loss 195.37 / take-profit 200.08 / max loss about $7.12 if the stop fills at 195.37 (it can fill worse in a fast market)",
+      "status": "approved",
+      "reply": "Yes",
+      "paper": true,
+      "broker": "alpaca"
+    },
+    {
+      "at": "2026-11-16T10:46:48-05:00",
+      "date": "2026-11-16",
+      "index": 2,
+      "fingerprint": "2fb8db58e5dcee5d",
+      "symbol": "WCN",
+      "side": "buy",
+      "plain": "BUY 4 WCN, market, good for today / stop-loss 195.37 / take-profit 200.08 / max loss about $7.12 if the stop fills at 195.37 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "4",
+      "kind": "entry",
+      "max_loss": 7.12,
+      "stop": 195.37,
+      "broker_order_id": "SIM-WCN-20261116-1046",
+      "note": "Simulated paper fill at Yahoo quote; no broker connected"
+    },
+    {
+      "at": "2026-11-16T10:46:48-05:00",
+      "date": "2026-11-16",
+      "status": "filled",
+      "symbol": "WCN",
+      "side": "buy",
+      "qty": "4",
+      "price": 196.27,
+      "plain": "BUY 4 WCN at 196.27"
     }
   ]
 }

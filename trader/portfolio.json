@@ -1,0 +1,17 @@
+{
+  "cash": 1714.92,
+  "positions": [
+    {
+      "ticker": "WCN",
+      "shares": 4.0,
+      "lots": [
+        {
+          "id": "WCN-1",
+          "date": "2026-11-16",
+          "shares": 4.0,
+          "cost": 785.08
+        }
+      ]
+    }
+  ]
+}

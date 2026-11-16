@@ -1,0 +1,29 @@
+{
+  "rules": [
+    {
+      "id": "wcn-plan-stop",
+      "symbol": "WCN",
+      "type": "stop",
+      "price": 195.37,
+      "note": "plan stop: opening-range midpoint",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "wcn-plan-target",
+      "symbol": "WCN",
+      "type": "target",
+      "price": 200.08,
+      "note": "plan target: 2R (two times the risk)",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "wcn-flat-by",
+      "symbol": "WCN",
+      "type": "time",
+      "at": "15:55",
+      "label": "flat by close",
+      "before_close": true,
+      "date": "2026-11-16"
+    }
+  ]
+}
