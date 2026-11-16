@@ -1,22 +1,22 @@
 {
   "created_by": "trader-entry",
-  "symbol": "PEP",
+  "symbol": "CL",
   "setup": "orb",
   "side": "buy",
   "date": "2026-11-16",
   "status": "triggered",
-  "time": "10:05 AM",
-  "bar_start": "10:00",
-  "bar_index": 6,
-  "price": 147.51,
-  "level": 147.43,
+  "time": "10:15 AM",
+  "bar_start": "10:10",
+  "bar_index": 8,
+  "price": 101.22,
+  "level": 101.15,
   "interval": "5m",
   "opening_range": {
-    "high": 147.43,
-    "low": 146.54,
+    "high": 101.15,
+    "low": 100.0,
     "minutes": 15
   },
   "source": "yahoo",
-  "checked_at": "2026-11-16T15:19:30Z",
-  "reason": "the 10:00 bar closed above the range high"
+  "checked_at": "2026-11-16T15:32:12Z",
+  "reason": "the 10:10 bar closed above the range high"
 }

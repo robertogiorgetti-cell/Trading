@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "CCEP",
+  "side": "buy",
+  "date": "2026-11-16",
+  "setup": "orb",
+  "entry": 120.29,
+  "entry_time": "10:20 AM",
+  "entry_bar": 9,
+  "interval": "5m",
+  "opening_range": {
+    "high": 120.0,
+    "low": 119.47,
+    "minutes": 15
+  },
+  "stop": 119.73,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 121.41,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 0.56,
+  "reward_risk": 2.0,
+  "flat_by": "15:55",
+  "stop_detail": "($120.00 + $119.47) / 2 = $119.735, rounded down",
+  "created_at": "2026-11-16T15:32:10Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}
