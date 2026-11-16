@@ -1,0 +1,30 @@
+{
+  "as_of": "2026-11-16T15:36:53Z",
+  "source": "yahoo",
+  "note": "Delayed quotes for alerts and sizing checks. Your broker's price is the one that fills. detail.fetched is when each price was read.",
+  "prices": {
+    "WCN": 197.15,
+    "CCEP": 120.08,
+    "CL": 101.3
+  },
+  "detail": {
+    "WCN": {
+      "prev_close": 193.97,
+      "time": "2026-11-16T15:36:46Z",
+      "source": "yahoo",
+      "fetched": "2026-11-16T15:36:53Z"
+    },
+    "CCEP": {
+      "prev_close": 118.57,
+      "time": "2026-11-16T15:36:36Z",
+      "source": "yahoo",
+      "fetched": "2026-11-16T15:36:53Z"
+    },
+    "CL": {
+      "prev_close": 99.67,
+      "time": "2026-11-16T15:36:48Z",
+      "source": "yahoo",
+      "fetched": "2026-11-16T15:36:53Z"
+    }
+  }
+}

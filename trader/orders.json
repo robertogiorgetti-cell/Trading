@@ -1,0 +1,73 @@
+{
+  "created_by": "trader-budget",
+  "created_at": "2026-11-16T15:36:59Z",
+  "status": "proposed",
+  "paper": true,
+  "note": "Proposals only. Nothing is placed until trader-risk passes each order and you say yes to it in the chat.",
+  "source": "trader/trades/{CCEP,WCN,CL}-plan.json (orb 2026-11-16)",
+  "orders": [
+    {
+      "symbol": "CCEP",
+      "side": "buy",
+      "qty": "6",
+      "type": "market",
+      "time_in_force": "day",
+      "order_class": "bracket",
+      "take_profit_limit_price": "121.41",
+      "stop_loss_stop_price": "119.73",
+      "why": "opening-range breakout on CCEP: 6 shares, bound by your max order (6 x 0.56 = $3.36 at the stop)",
+      "plan": {
+        "entry": 120.29,
+        "stop": 119.73,
+        "target": 121.41,
+        "risk_per_share": 0.56,
+        "max_loss": 3.36,
+        "setup": "orb",
+        "entry_time": "10:20 AM",
+        "flat_by": "15:55"
+      }
+    },
+    {
+      "symbol": "WCN",
+      "side": "buy",
+      "qty": "4",
+      "type": "market",
+      "time_in_force": "day",
+      "order_class": "bracket",
+      "take_profit_limit_price": "200.08",
+      "stop_loss_stop_price": "195.37",
+      "why": "opening-range breakout on WCN: 4 shares, bound by your max order (4 x 1.78 = $7.12 at the stop)",
+      "plan": {
+        "entry": 197.15,
+        "stop": 195.37,
+        "target": 200.08,
+        "risk_per_share": 1.78,
+        "max_loss": 7.12,
+        "setup": "orb",
+        "entry_time": "10:25 AM",
+        "flat_by": "15:55"
+      }
+    },
+    {
+      "symbol": "CL",
+      "side": "buy",
+      "qty": "8",
+      "type": "market",
+      "time_in_force": "day",
+      "order_class": "bracket",
+      "take_profit_limit_price": "102.52",
+      "stop_loss_stop_price": "100.57",
+      "why": "opening-range breakout on CL: 8 shares, bound by your max order (8 x 0.73 = $5.84 at the stop)",
+      "plan": {
+        "entry": 101.3,
+        "stop": 100.57,
+        "target": 102.52,
+        "risk_per_share": 0.73,
+        "max_loss": 5.84,
+        "setup": "orb",
+        "entry_time": "10:15 AM",
+        "flat_by": "15:55"
+      }
+    }
+  ]
+}
