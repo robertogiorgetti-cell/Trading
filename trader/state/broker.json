@@ -1,0 +1,36 @@
+{
+  "orders": [
+    {
+      "at": "2026-11-16T10:45:56-05:00",
+      "date": "2026-11-16",
+      "index": 1,
+      "fingerprint": "2669ab328853028e",
+      "symbol": "CCEP",
+      "side": "buy",
+      "qty": "6",
+      "kind": "entry",
+      "max_loss": 3.36,
+      "stop": 119.73,
+      "plain": "BUY 6 CCEP, market, good for today / stop-loss 119.73 / take-profit 121.41 / max loss about $3.36 if the stop fills at 119.73 (it can fill worse in a fast market)",
+      "status": "approved",
+      "reply": "Yes",
+      "paper": true,
+      "broker": "alpaca"
+    },
+    {
+      "at": "2026-11-16T10:46:01-05:00",
+      "date": "2026-11-16",
+      "index": 1,
+      "fingerprint": "2669ab328853028e",
+      "symbol": "CCEP",
+      "side": "buy",
+      "plain": "BUY 6 CCEP, market, good for today / stop-loss 119.73 / take-profit 121.41 / max loss about $3.36 if the stop fills at 119.73 (it can fill worse in a fast market)",
+      "status": "failed",
+      "qty": "6",
+      "kind": "entry",
+      "max_loss": 3.36,
+      "stop": 119.73,
+      "note": "Simulated paper only: price 119.62 at 10:45 ET already below the 119.73 stop, setup failed before fill; not placed"
+    }
+  ]
+}
